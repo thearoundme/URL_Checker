@@ -30,7 +30,7 @@ Fork or mirror setup notes: **[docs/GITHUB_NEW_REPO.md](docs/GITHUB_NEW_REPO.md)
 ## Project structure
 
 ```
-URL_Check/
+URL_Checker/
   backend/
     app/
       api/routes.py
@@ -137,7 +137,7 @@ Request example:
 ### 1) Backend
 
 ```bash
-cd URL_Check/backend
+cd URL_Checker/backend
 python3 -m venv .venv
 # macOS / Linux:
 source .venv/bin/activate
@@ -152,7 +152,7 @@ Or on macOS/Linux: `chmod +x run-dev.sh && ./run-dev.sh`
 ### 2) Frontend
 
 ```bash
-cd URL_Check/frontend
+cd URL_Checker/frontend
 npm install
 npm run dev
 ```
@@ -171,7 +171,7 @@ Frontend runs at `http://localhost:5173` and calls backend `http://localhost:800
 - **Charts**: [Recharts](https://recharts.org/) — run `npm install` in `frontend/` after pull.
 
 ```bash
-cd URL_Check/frontend
+cd URL_Checker/frontend
 npm install
 npm run dev
 ```
@@ -179,7 +179,7 @@ npm run dev
 ## Run with Docker
 
 ```bash
-cd URL_Check
+cd URL_Checker
 docker compose up --build
 ```
 
@@ -236,7 +236,7 @@ Example patching group entry:
 This project includes a generator plus mock endpoints so you can validate all functions quickly (filters, summary, anomalies, drill-down, SLA, DEGRADED/DOWN states):
 
 ```bash
-cd URL_Check
+cd URL_Checker
 python backend/scripts/generate_sample_services.py
 ```
 

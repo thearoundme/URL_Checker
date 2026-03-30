@@ -1,4 +1,4 @@
-# Create a new GitHub repository for URL_Check
+# Create a new GitHub repository for URL_Checker
 
 **Canonical repo:** [thearoundme/URL_Checker](https://github.com/thearoundme/URL_Checker)
 
@@ -12,7 +12,7 @@ Avoid nested Git folders inside the monorepo:
 
 ```bash
 # macOS / Linux
-cp -R /path/to/Aroundme/URL_Check ~/url-check
+cp -R /path/to/URL_Checker ~/url-check
 cd ~/url-check
 git init -b main
 git add .
@@ -23,7 +23,7 @@ Then add the GitHub remote and push (step 2 below).
 
 ### Option B — Keep Git history from the monorepo (advanced)
 
-From the **monorepo root** (where `URL_Check/` is tracked):
+From a **monorepo root** that still contained this tree as `URL_Check/` (legacy):
 
 ```bash
 cd /path/to/Aroundme
@@ -37,7 +37,7 @@ Then add `origin` pointing at your new GitHub repo and `git push -u origin main`
 
 ### Option C — `git init` inside the monorepo folder (not recommended)
 
-Running `git init` directly inside `Aroundme/URL_Check` creates a **nested** repository; the parent repo will not track inner files the same way. Prefer **Option A** or **B**.
+Running `git init` inside a subfolder of another Git repo creates a **nested** repository. Prefer **Option A** or **B**.
 
 ---
 

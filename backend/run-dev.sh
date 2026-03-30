@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Start the URL_Check API on macOS/Linux (same as run-dev.ps1 on Windows).
-# Usage: cd URL_Check/backend && chmod +x run-dev.sh && ./run-dev.sh
+# Usage: cd URL_Checker/backend && chmod +x run-dev.sh && ./run-dev.sh
 
 set -euo pipefail
 cd "$(dirname "$0")"

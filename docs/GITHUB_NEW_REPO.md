@@ -1,6 +1,8 @@
 # Create a new GitHub repository for URL_Check
 
-This project can live as a **standalone** Git repository (separate from the AroundMe monorepo).
+**Canonical repo:** [thearoundme/URL_Checker](https://github.com/thearoundme/URL_Checker)
+
+This document is for **forks**, **mirrors**, or moving the code to another org. To contribute, clone that repository and open pull requests there.
 
 ## Choose how you move the code
 

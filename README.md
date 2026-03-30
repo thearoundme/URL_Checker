@@ -2,9 +2,17 @@
 
 Standalone microservice for service-level monitoring (not tied to AroundMe domains).
 
+**GitHub:** [github.com/thearoundme/URL_Checker](https://github.com/thearoundme/URL_Checker)
+
+```bash
+git clone https://github.com/thearoundme/URL_Checker.git
+cd URL_Checker
+docker compose up -d --build
+```
+
 ## Own GitHub repository
 
-To publish this folder as a **new** remote repo (copy or subtree split, `git init`, push): **[docs/GITHUB_NEW_REPO.md](docs/GITHUB_NEW_REPO.md)**.
+Fork or mirror setup notes: **[docs/GITHUB_NEW_REPO.md](docs/GITHUB_NEW_REPO.md)**.
 
 ## Scope in this phase
 

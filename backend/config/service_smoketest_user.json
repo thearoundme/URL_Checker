@@ -1,0 +1,269 @@
+{
+  "default_user": {
+    "email": "urlchecker01@gmail.com",
+    "password": "URLChecker@01"
+  },
+  "env_aliases": {
+    "prod": "prod",
+    "production": "prod",
+    "uat": "uat1",
+    "uat1": "uat1",
+    "uat2": "uat2",
+    "uat3": "uat3"
+  },
+  "brand_user_map": [
+    {
+      "brand": "WS US",
+      "users_by_env": {
+        "prod": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat1": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat2": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat3": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        }
+      }
+    },
+    {
+      "brand": "PB US",
+      "users_by_env": {
+        "prod": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat1": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat2": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat3": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        }
+      }
+    },
+    {
+      "brand": "PT US",
+      "users_by_env": {
+        "prod": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat1": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat2": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat3": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        }
+      }
+    },
+    {
+      "brand": "PK US",
+      "users_by_env": {
+        "prod": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat1": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat2": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat3": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        }
+      }
+    },
+    {
+      "brand": "WE US",
+      "users_by_env": {
+        "prod": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat1": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat2": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat3": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        }
+      }
+    },
+    {
+      "brand": "RJ US",
+      "users_by_env": {
+        "prod": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat1": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat2": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat3": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        }
+      }
+    },
+    {
+      "brand": "WS CA",
+      "users_by_env": {
+        "prod": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat1": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat2": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat3": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        }
+      }
+    },
+    {
+      "brand": "PB CA",
+      "users_by_env": {
+        "prod": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat1": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat2": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat3": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        }
+      }
+    },
+    {
+      "brand": "PT CA",
+      "users_by_env": {
+        "prod": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat1": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat2": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat3": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        }
+      }
+    },
+    {
+      "brand": "PK CA",
+      "users_by_env": {
+        "prod": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat1": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat2": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat3": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        }
+      }
+    },
+    {
+      "brand": "WE CA",
+      "users_by_env": {
+        "prod": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat1": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat2": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat3": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        }
+      }
+    },
+    {
+      "brand": "RJ CA",
+      "users_by_env": {
+        "prod": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat1": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat2": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        },
+        "uat3": {
+          "email": "urlchecker01@gmail.com",
+          "password": "URLChecker@01"
+        }
+      }
+    }
+  ]
+}
+

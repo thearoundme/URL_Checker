@@ -1,0 +1,13 @@
+{
+  "check_interval_seconds": 30,
+  "check_timeout_seconds": 5.0,
+  "retry_count": 2,
+  "degraded_latency_ms": 1000.0,
+  "batch_size": 100,
+  "max_outbound_connections": 2000,
+  "max_keepalive_connections": 400,
+  "latency_history_size": 30,
+  "intermittent_failure_window": 10,
+  "intermittent_failure_threshold": 3,
+  "ui_poll_interval_ms": 12000
+}

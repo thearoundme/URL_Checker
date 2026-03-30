@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: url-check-checker
+spec:
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+            - name: checker
+              image: curlimages/curl:8.7.1
+              args:
+                - /bin/sh
+                - -c
+                - "curl -sS http://url-check-backend:8000/status >/dev/null"

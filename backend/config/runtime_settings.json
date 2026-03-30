@@ -1,0 +1,18 @@
+{
+  "api_keys": [
+    "local-dev-key"
+  ],
+  "admin_api_keys": [
+    "admin-local-key"
+  ],
+  "admin_username": "admin",
+  "admin_password": "admin",
+  "allowed_origins": [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173"
+  ],
+  "rate_limit_window_seconds": 60,
+  "rate_limit_max_requests": 30,
+  "k8_cache_refresh_seconds": 20,
+  "ssl_cache_refresh_seconds": 60
+}

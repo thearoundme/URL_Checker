@@ -1,0 +1,58 @@
+{
+  "kubernetes_clusters": [
+    {
+      "name": "prod-east-cluster",
+      "api_server_url": "http://127.0.0.1:8000/mock/up",
+      "ingress_urls": [
+        "http://127.0.0.1:8000/mock/up",
+        "http://127.0.0.1:8000/mock/slow?ms=900"
+      ],
+      "health_urls": [
+        "http://127.0.0.1:8000/mock/up"
+      ],
+      "metrics_url": "http://127.0.0.1:8000/mock/up",
+      "environment": "prod",
+      "region": "EAST"
+    },
+    {
+      "name": "uat-west-cluster",
+      "api_server_url": "http://127.0.0.1:8000/mock/down",
+      "ingress_urls": [
+        "http://127.0.0.1:8000/mock/down"
+      ],
+      "health_urls": [
+        "http://127.0.0.1:8000/mock/up"
+      ],
+      "metrics_url": "http://127.0.0.1:8000/mock/down",
+      "environment": "uat",
+      "region": "WEST"
+    },
+    {
+      "name": "uat2-east-cluster",
+      "api_server_url": "http://127.0.0.1:8000/mock/up",
+      "ingress_urls": [
+        "http://127.0.0.1:8000/mock/up",
+        "http://127.0.0.1:8000/mock/down"
+      ],
+      "health_urls": [
+        "http://127.0.0.1:8000/mock/up"
+      ],
+      "metrics_url": "http://127.0.0.1:8000/mock/up",
+      "environment": "uat2",
+      "region": "EAST"
+    },
+    {
+      "name": "uat3-west-cluster",
+      "api_server_url": "http://127.0.0.1:8000/mock/up",
+      "ingress_urls": [
+        "http://127.0.0.1:8000/mock/slow?ms=1600"
+      ],
+      "health_urls": [
+        "http://127.0.0.1:8000/mock/up"
+      ],
+      "metrics_url": "http://127.0.0.1:8000/mock/slow?ms=1400",
+      "environment": "uat3",
+      "region": "WEST"
+    }
+  ]
+}

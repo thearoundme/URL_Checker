@@ -1,0 +1,872 @@
+{
+  "smoke_tests": [
+    {
+      "brand": "WS_US",
+      "env": "prod",
+      "region": "EAST",
+      "base_url": "https://www.williams-sonoma.com",
+      "vip_url": "https://www.williams-sonoma.com",
+      "server_urls": [
+        "https://east-ws-us-01.internal",
+        "https://east-ws-us-02.internal",
+        "https://east-ws-us-03.internal",
+        "https://east-ws-us-04.internal",
+        "https://east-ws-us-05.internal",
+        "https://east-ws-us-06.internal",
+        "https://east-ws-us-07.internal",
+        "https://east-ws-us-08.internal",
+        "https://east-ws-us-09.internal",
+        "https://east-ws-us-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "chair",
+      "address": {
+        "name": "Test User",
+        "city": "San Francisco",
+        "zip": "94105"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "WS_US",
+      "env": "prod",
+      "region": "WEST",
+      "base_url": "https://www.williams-sonoma.com",
+      "vip_url": "https://www.williams-sonoma.com",
+      "server_urls": [
+        "https://west-ws-us-01.internal",
+        "https://west-ws-us-02.internal",
+        "https://west-ws-us-03.internal",
+        "https://west-ws-us-04.internal",
+        "https://west-ws-us-05.internal",
+        "https://west-ws-us-06.internal",
+        "https://west-ws-us-07.internal",
+        "https://west-ws-us-08.internal",
+        "https://west-ws-us-09.internal",
+        "https://west-ws-us-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "chair",
+      "address": {
+        "name": "Test User",
+        "city": "Los Angeles",
+        "zip": "90001"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "PB_US",
+      "env": "prod",
+      "region": "EAST",
+      "base_url": "https://www.potterybarn.com",
+      "vip_url": "https://www.potterybarn.com",
+      "server_urls": [
+        "https://east-pb-us-01.internal",
+        "https://east-pb-us-02.internal",
+        "https://east-pb-us-03.internal",
+        "https://east-pb-us-04.internal",
+        "https://east-pb-us-05.internal",
+        "https://east-pb-us-06.internal",
+        "https://east-pb-us-07.internal",
+        "https://east-pb-us-08.internal",
+        "https://east-pb-us-09.internal",
+        "https://east-pb-us-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "sofa",
+      "address": {
+        "name": "Test User",
+        "city": "New York",
+        "zip": "10001"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "PB_US",
+      "env": "prod",
+      "region": "WEST",
+      "base_url": "https://www.potterybarn.com",
+      "vip_url": "https://www.potterybarn.com",
+      "server_urls": [
+        "https://west-pb-us-01.internal",
+        "https://west-pb-us-02.internal",
+        "https://west-pb-us-03.internal",
+        "https://west-pb-us-04.internal",
+        "https://west-pb-us-05.internal",
+        "https://west-pb-us-06.internal",
+        "https://west-pb-us-07.internal",
+        "https://west-pb-us-08.internal",
+        "https://west-pb-us-09.internal",
+        "https://west-pb-us-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "sofa",
+      "address": {
+        "name": "Test User",
+        "city": "Seattle",
+        "zip": "98101"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "PT_US",
+      "env": "prod",
+      "region": "EAST",
+      "base_url": "https://www.pbteen.com",
+      "vip_url": "https://www.pbteen.com",
+      "server_urls": [
+        "https://east-pt-us-01.internal",
+        "https://east-pt-us-02.internal",
+        "https://east-pt-us-03.internal",
+        "https://east-pt-us-04.internal",
+        "https://east-pt-us-05.internal",
+        "https://east-pt-us-06.internal",
+        "https://east-pt-us-07.internal",
+        "https://east-pt-us-08.internal",
+        "https://east-pt-us-09.internal",
+        "https://east-pt-us-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "desk",
+      "address": {
+        "name": "Test User",
+        "city": "Boston",
+        "zip": "02108"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "PT_US",
+      "env": "prod",
+      "region": "WEST",
+      "base_url": "https://www.pbteen.com",
+      "vip_url": "https://www.pbteen.com",
+      "server_urls": [
+        "https://west-pt-us-01.internal",
+        "https://west-pt-us-02.internal",
+        "https://west-pt-us-03.internal",
+        "https://west-pt-us-04.internal",
+        "https://west-pt-us-05.internal",
+        "https://west-pt-us-06.internal",
+        "https://west-pt-us-07.internal",
+        "https://west-pt-us-08.internal",
+        "https://west-pt-us-09.internal",
+        "https://west-pt-us-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "desk",
+      "address": {
+        "name": "Test User",
+        "city": "Portland",
+        "zip": "97201"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "PK_US",
+      "env": "prod",
+      "region": "EAST",
+      "base_url": "https://www.potterybarnkids.com",
+      "vip_url": "https://www.potterybarnkids.com",
+      "server_urls": [
+        "https://east-pk-us-01.internal",
+        "https://east-pk-us-02.internal",
+        "https://east-pk-us-03.internal",
+        "https://east-pk-us-04.internal",
+        "https://east-pk-us-05.internal",
+        "https://east-pk-us-06.internal",
+        "https://east-pk-us-07.internal",
+        "https://east-pk-us-08.internal",
+        "https://east-pk-us-09.internal",
+        "https://east-pk-us-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "crib",
+      "address": {
+        "name": "Test User",
+        "city": "Philadelphia",
+        "zip": "19103"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "PK_US",
+      "env": "prod",
+      "region": "WEST",
+      "base_url": "https://www.potterybarnkids.com",
+      "vip_url": "https://www.potterybarnkids.com",
+      "server_urls": [
+        "https://west-pk-us-01.internal",
+        "https://west-pk-us-02.internal",
+        "https://west-pk-us-03.internal",
+        "https://west-pk-us-04.internal",
+        "https://west-pk-us-05.internal",
+        "https://west-pk-us-06.internal",
+        "https://west-pk-us-07.internal",
+        "https://west-pk-us-08.internal",
+        "https://west-pk-us-09.internal",
+        "https://west-pk-us-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "crib",
+      "address": {
+        "name": "Test User",
+        "city": "San Diego",
+        "zip": "92101"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "WE_US",
+      "env": "prod",
+      "region": "EAST",
+      "base_url": "https://www.westelm.com",
+      "vip_url": "https://www.westelm.com",
+      "server_urls": [
+        "https://east-we-us-01.internal",
+        "https://east-we-us-02.internal",
+        "https://east-we-us-03.internal",
+        "https://east-we-us-04.internal",
+        "https://east-we-us-05.internal",
+        "https://east-we-us-06.internal",
+        "https://east-we-us-07.internal",
+        "https://east-we-us-08.internal",
+        "https://east-we-us-09.internal",
+        "https://east-we-us-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "table",
+      "address": {
+        "name": "Test User",
+        "city": "Chicago",
+        "zip": "60601"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "WE_US",
+      "env": "prod",
+      "region": "WEST",
+      "base_url": "https://www.westelm.com",
+      "vip_url": "https://www.westelm.com",
+      "server_urls": [
+        "https://west-we-us-01.internal",
+        "https://west-we-us-02.internal",
+        "https://west-we-us-03.internal",
+        "https://west-we-us-04.internal",
+        "https://west-we-us-05.internal",
+        "https://west-we-us-06.internal",
+        "https://west-we-us-07.internal",
+        "https://west-we-us-08.internal",
+        "https://west-we-us-09.internal",
+        "https://west-we-us-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "table",
+      "address": {
+        "name": "Test User",
+        "city": "San Francisco",
+        "zip": "94105"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "RJ_US",
+      "env": "prod",
+      "region": "EAST",
+      "base_url": "https://www.rejuvenation.com",
+      "vip_url": "https://www.rejuvenation.com",
+      "server_urls": [
+        "https://east-rj-us-01.internal",
+        "https://east-rj-us-02.internal",
+        "https://east-rj-us-03.internal",
+        "https://east-rj-us-04.internal",
+        "https://east-rj-us-05.internal",
+        "https://east-rj-us-06.internal",
+        "https://east-rj-us-07.internal",
+        "https://east-rj-us-08.internal",
+        "https://east-rj-us-09.internal",
+        "https://east-rj-us-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "lamp",
+      "address": {
+        "name": "Test User",
+        "city": "Atlanta",
+        "zip": "30301"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "RJ_US",
+      "env": "prod",
+      "region": "WEST",
+      "base_url": "https://www.rejuvenation.com",
+      "vip_url": "https://www.rejuvenation.com",
+      "server_urls": [
+        "https://west-rj-us-01.internal",
+        "https://west-rj-us-02.internal",
+        "https://west-rj-us-03.internal",
+        "https://west-rj-us-04.internal",
+        "https://west-rj-us-05.internal",
+        "https://west-rj-us-06.internal",
+        "https://west-rj-us-07.internal",
+        "https://west-rj-us-08.internal",
+        "https://west-rj-us-09.internal",
+        "https://west-rj-us-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "lamp",
+      "address": {
+        "name": "Test User",
+        "city": "Denver",
+        "zip": "80202"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "WS_CA",
+      "env": "prod",
+      "region": "EAST",
+      "base_url": "https://www.williams-sonoma.ca",
+      "vip_url": "https://www.williams-sonoma.ca",
+      "server_urls": [
+        "https://east-ws-ca-01.internal",
+        "https://east-ws-ca-02.internal",
+        "https://east-ws-ca-03.internal",
+        "https://east-ws-ca-04.internal",
+        "https://east-ws-ca-05.internal",
+        "https://east-ws-ca-06.internal",
+        "https://east-ws-ca-07.internal",
+        "https://east-ws-ca-08.internal",
+        "https://east-ws-ca-09.internal",
+        "https://east-ws-ca-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "chair",
+      "address": {
+        "name": "Test User",
+        "city": "Toronto",
+        "zip": "M5H 2N2"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "WS_CA",
+      "env": "prod",
+      "region": "WEST",
+      "base_url": "https://www.williams-sonoma.ca",
+      "vip_url": "https://www.williams-sonoma.ca",
+      "server_urls": [
+        "https://west-ws-ca-01.internal",
+        "https://west-ws-ca-02.internal",
+        "https://west-ws-ca-03.internal",
+        "https://west-ws-ca-04.internal",
+        "https://west-ws-ca-05.internal",
+        "https://west-ws-ca-06.internal",
+        "https://west-ws-ca-07.internal",
+        "https://west-ws-ca-08.internal",
+        "https://west-ws-ca-09.internal",
+        "https://west-ws-ca-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "chair",
+      "address": {
+        "name": "Test User",
+        "city": "Vancouver",
+        "zip": "V6B 1A1"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "PB_CA",
+      "env": "prod",
+      "region": "EAST",
+      "base_url": "https://www.potterybarn.ca",
+      "vip_url": "https://www.potterybarn.ca",
+      "server_urls": [
+        "https://east-pb-ca-01.internal",
+        "https://east-pb-ca-02.internal",
+        "https://east-pb-ca-03.internal",
+        "https://east-pb-ca-04.internal",
+        "https://east-pb-ca-05.internal",
+        "https://east-pb-ca-06.internal",
+        "https://east-pb-ca-07.internal",
+        "https://east-pb-ca-08.internal",
+        "https://east-pb-ca-09.internal",
+        "https://east-pb-ca-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "sofa",
+      "address": {
+        "name": "Test User",
+        "city": "Montreal",
+        "zip": "H3A 1A1"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "PB_CA",
+      "env": "prod",
+      "region": "WEST",
+      "base_url": "https://www.potterybarn.ca",
+      "vip_url": "https://www.potterybarn.ca",
+      "server_urls": [
+        "https://west-pb-ca-01.internal",
+        "https://west-pb-ca-02.internal",
+        "https://west-pb-ca-03.internal",
+        "https://west-pb-ca-04.internal",
+        "https://west-pb-ca-05.internal",
+        "https://west-pb-ca-06.internal",
+        "https://west-pb-ca-07.internal",
+        "https://west-pb-ca-08.internal",
+        "https://west-pb-ca-09.internal",
+        "https://west-pb-ca-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "sofa",
+      "address": {
+        "name": "Test User",
+        "city": "Calgary",
+        "zip": "T2P 1J9"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "PT_CA",
+      "env": "prod",
+      "region": "EAST",
+      "base_url": "https://www.pbteen.ca",
+      "vip_url": "https://www.pbteen.ca",
+      "server_urls": [
+        "https://east-pt-ca-01.internal",
+        "https://east-pt-ca-02.internal",
+        "https://east-pt-ca-03.internal",
+        "https://east-pt-ca-04.internal",
+        "https://east-pt-ca-05.internal",
+        "https://east-pt-ca-06.internal",
+        "https://east-pt-ca-07.internal",
+        "https://east-pt-ca-08.internal",
+        "https://east-pt-ca-09.internal",
+        "https://east-pt-ca-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "desk",
+      "address": {
+        "name": "Test User",
+        "city": "Ottawa",
+        "zip": "K1P 1J1"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "PT_CA",
+      "env": "prod",
+      "region": "WEST",
+      "base_url": "https://www.pbteen.ca",
+      "vip_url": "https://www.pbteen.ca",
+      "server_urls": [
+        "https://west-pt-ca-01.internal",
+        "https://west-pt-ca-02.internal",
+        "https://west-pt-ca-03.internal",
+        "https://west-pt-ca-04.internal",
+        "https://west-pt-ca-05.internal",
+        "https://west-pt-ca-06.internal",
+        "https://west-pt-ca-07.internal",
+        "https://west-pt-ca-08.internal",
+        "https://west-pt-ca-09.internal",
+        "https://west-pt-ca-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "desk",
+      "address": {
+        "name": "Test User",
+        "city": "Victoria",
+        "zip": "V8W 1L8"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "PK_CA",
+      "env": "prod",
+      "region": "EAST",
+      "base_url": "https://www.potterybarnkids.ca",
+      "vip_url": "https://www.potterybarnkids.ca",
+      "server_urls": [
+        "https://east-pk-ca-01.internal",
+        "https://east-pk-ca-02.internal",
+        "https://east-pk-ca-03.internal",
+        "https://east-pk-ca-04.internal",
+        "https://east-pk-ca-05.internal",
+        "https://east-pk-ca-06.internal",
+        "https://east-pk-ca-07.internal",
+        "https://east-pk-ca-08.internal",
+        "https://east-pk-ca-09.internal",
+        "https://east-pk-ca-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "crib",
+      "address": {
+        "name": "Test User",
+        "city": "Quebec City",
+        "zip": "G1R 5M1"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "PK_CA",
+      "env": "prod",
+      "region": "WEST",
+      "base_url": "https://www.potterybarnkids.ca",
+      "vip_url": "https://www.potterybarnkids.ca",
+      "server_urls": [
+        "https://west-pk-ca-01.internal",
+        "https://west-pk-ca-02.internal",
+        "https://west-pk-ca-03.internal",
+        "https://west-pk-ca-04.internal",
+        "https://west-pk-ca-05.internal",
+        "https://west-pk-ca-06.internal",
+        "https://west-pk-ca-07.internal",
+        "https://west-pk-ca-08.internal",
+        "https://west-pk-ca-09.internal",
+        "https://west-pk-ca-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "crib",
+      "address": {
+        "name": "Test User",
+        "city": "Edmonton",
+        "zip": "T5J 0N3"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "WE_CA",
+      "env": "prod",
+      "region": "EAST",
+      "base_url": "https://www.westelm.ca",
+      "vip_url": "https://www.westelm.ca",
+      "server_urls": [
+        "https://east-we-ca-01.internal",
+        "https://east-we-ca-02.internal",
+        "https://east-we-ca-03.internal",
+        "https://east-we-ca-04.internal",
+        "https://east-we-ca-05.internal",
+        "https://east-we-ca-06.internal",
+        "https://east-we-ca-07.internal",
+        "https://east-we-ca-08.internal",
+        "https://east-we-ca-09.internal",
+        "https://east-we-ca-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "table",
+      "address": {
+        "name": "Test User",
+        "city": "Halifax",
+        "zip": "B3J 3K5"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "WE_CA",
+      "env": "prod",
+      "region": "WEST",
+      "base_url": "https://www.westelm.ca",
+      "vip_url": "https://www.westelm.ca",
+      "server_urls": [
+        "https://west-we-ca-01.internal",
+        "https://west-we-ca-02.internal",
+        "https://west-we-ca-03.internal",
+        "https://west-we-ca-04.internal",
+        "https://west-we-ca-05.internal",
+        "https://west-we-ca-06.internal",
+        "https://west-we-ca-07.internal",
+        "https://west-we-ca-08.internal",
+        "https://west-we-ca-09.internal",
+        "https://west-we-ca-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "table",
+      "address": {
+        "name": "Test User",
+        "city": "Winnipeg",
+        "zip": "R3C 4T3"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "RJ_CA",
+      "env": "prod",
+      "region": "EAST",
+      "base_url": "https://www.rejuvenation.ca",
+      "vip_url": "https://www.rejuvenation.ca",
+      "server_urls": [
+        "https://east-rj-ca-01.internal",
+        "https://east-rj-ca-02.internal",
+        "https://east-rj-ca-03.internal",
+        "https://east-rj-ca-04.internal",
+        "https://east-rj-ca-05.internal",
+        "https://east-rj-ca-06.internal",
+        "https://east-rj-ca-07.internal",
+        "https://east-rj-ca-08.internal",
+        "https://east-rj-ca-09.internal",
+        "https://east-rj-ca-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "lamp",
+      "address": {
+        "name": "Test User",
+        "city": "Toronto",
+        "zip": "M5V 2T6"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "RJ_CA",
+      "env": "prod",
+      "region": "WEST",
+      "base_url": "https://www.rejuvenation.ca",
+      "vip_url": "https://www.rejuvenation.ca",
+      "server_urls": [
+        "https://west-rj-ca-01.internal",
+        "https://west-rj-ca-02.internal",
+        "https://west-rj-ca-03.internal",
+        "https://west-rj-ca-04.internal",
+        "https://west-rj-ca-05.internal",
+        "https://west-rj-ca-06.internal",
+        "https://west-rj-ca-07.internal",
+        "https://west-rj-ca-08.internal",
+        "https://west-rj-ca-09.internal",
+        "https://west-rj-ca-10.internal"
+      ],
+      "test_user": {
+        "username": "prod_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "lamp",
+      "address": {
+        "name": "Test User",
+        "city": "Vancouver",
+        "zip": "V6B 2Y9"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "WS_US",
+      "env": "uat1",
+      "region": "EAST",
+      "base_url": "http://127.0.0.1:8000/mock",
+      "vip_url": "http://127.0.0.1:8000/mock",
+      "server_urls": [
+        "http://127.0.0.1:8000/mock/up",
+        "http://127.0.0.1:8000/mock/slow?ms=1200",
+        "http://127.0.0.1:8000/mock/down"
+      ],
+      "test_user": {
+        "username": "uat_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "chair",
+      "address": {
+        "name": "UAT Test User",
+        "city": "Austin",
+        "zip": "73301"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "PB_US",
+      "env": "uat2",
+      "region": "WEST",
+      "base_url": "http://127.0.0.1:8000/mock",
+      "vip_url": "http://127.0.0.1:8000/mock",
+      "server_urls": [
+        "http://127.0.0.1:8000/mock/up",
+        "http://127.0.0.1:8000/mock/flaky/pb-uat2-west",
+        "http://127.0.0.1:8000/mock/up"
+      ],
+      "test_user": {
+        "username": "uat_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "sofa",
+      "address": {
+        "name": "UAT Test User",
+        "city": "Phoenix",
+        "zip": "85001"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "WE_US",
+      "env": "uat3",
+      "region": "EAST",
+      "base_url": "http://127.0.0.1:8000/mock",
+      "vip_url": "http://127.0.0.1:8000/mock",
+      "server_urls": [
+        "http://127.0.0.1:8000/mock/up",
+        "http://127.0.0.1:8000/mock/up",
+        "http://127.0.0.1:8000/mock/slow?ms=800"
+      ],
+      "test_user": {
+        "username": "uat_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "table",
+      "address": {
+        "name": "UAT Test User",
+        "city": "Miami",
+        "zip": "33101"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    },
+    {
+      "brand": "RJ_US",
+      "env": "uat3",
+      "region": "WEST",
+      "base_url": "http://127.0.0.1:8000/mock",
+      "vip_url": "http://127.0.0.1:8000/mock",
+      "server_urls": [
+        "http://127.0.0.1:8000/mock/up",
+        "http://127.0.0.1:8000/mock/down",
+        "http://127.0.0.1:8000/mock/slow?ms=600"
+      ],
+      "test_user": {
+        "username": "uat_smoke_user",
+        "password": "password"
+      },
+      "product_search_term": "lamp",
+      "address": {
+        "name": "UAT Test User",
+        "city": "Las Vegas",
+        "zip": "88901"
+      },
+      "step_paths": {
+        "login": "/account/login.html"
+      }
+    }
+  ]
+}

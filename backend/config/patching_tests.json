@@ -1,0 +1,44 @@
+{
+  "patching_groups": [
+    {
+      "name": "day1-tools-vm",
+      "description": "Day-1 tools VM servers patching validation",
+      "targets": {
+        "category": "tool",
+        "platform": "vm"
+      },
+      "checks": [
+        "httpd",
+        "url"
+      ]
+    },
+    {
+      "name": "day2-east-vm",
+      "description": "Day-2 EAST VM servers patching validation",
+      "targets": {
+        "category": "application",
+        "platform": "vm",
+        "region": "EAST"
+      },
+      "checks": [
+        "httpd",
+        "tomcat",
+        "url"
+      ]
+    },
+    {
+      "name": "day3-west-vm",
+      "description": "Day-3 WEST VM servers patching validation",
+      "targets": {
+        "category": "application",
+        "platform": "vm",
+        "region": "WEST"
+      },
+      "checks": [
+        "httpd",
+        "tomcat",
+        "url"
+      ]
+    }
+  ]
+}

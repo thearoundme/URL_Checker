@@ -4,6 +4,8 @@ Standalone microservice for service-level monitoring (not tied to AroundMe domai
 
 **GitHub:** [github.com/thearoundme/URL_Checker](https://github.com/thearoundme/URL_Checker)
 
+**Example location (Windows):** `C:\Users\AroundMe\URL_Checker` — next to the `Aroundme` folder, not inside it.
+
 ```bash
 git clone https://github.com/thearoundme/URL_Checker.git
 cd URL_Checker
